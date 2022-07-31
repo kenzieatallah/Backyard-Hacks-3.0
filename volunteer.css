@@ -1,0 +1,166 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+    
+body{
+  background-color: white;
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+}
+
+#title{
+  font-size: 1.5em;
+  letter-spacing: 0.05em;
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.25em;
+  margin-top: 1em;
+  border-top: 6px double #f5d8db;
+  border-bottom: 6px double #f5d8db;
+  background-color: white;
+  color: black;
+}
+
+#description {
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding: 1em;
+  margin-top: 0.25em;
+  border-top: 6px dotted #f5d8db;
+  border-bottom: 6px dotted #f5d8db;
+  background-color: white;
+  color: black;
+}
+  
+.container {
+  
+	width: 100%;
+	margin: auto;
+  background-color: white;
+	color: black;
+  letter-spacing: 0.05em;
+  
+}
+
+#survey-form {
+  /*font-family: "League Gothic";*/
+	text-align: center;
+  padding: 2em;
+}
+
+
+.row-tab {
+  text-align: center;
+	display: block;
+	padding-bottom: 10px;
+}
+
+.label-tab {
+  font-size: 15px;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+}
+
+.input-tab {
+  padding-left: 4px;
+	display: inline;
+	text-align: center;
+}
+
+.select-tab {
+	display: inline-block;
+	text-align: center;
+}
+
+#select-box {
+	padding: 5px 0px;
+
+}
+
+.navBar{
+  text-align: center;
+  padding-bottom: 2.5em;
+  list-style-type: none;
+  background-image: radial-gradient(circle, #4C98BF, #CD3F4E, #E4B936);
+  padding-top: 2.5em;
+  text-decoration: none;
+  width: 100%;
+}
+.navBar a:link{
+  text-decoration: none;
+  color: black; 
+}
+.navBar a:visited{ 
+  text-decoration: none; 
+  color: black; 
+}
+.navBar a:hover{ 
+  text-decoration: none; 
+  background-color: #floralwhite;
+}
+.navBar a:active{
+  text-decoration: none; 
+  color: black; 
+}
+
+li{
+  display: inline;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+.row4 {
+  display:flex;
+  justify-content: center;
+  margin: 37px;
+} 
+
+a {
+  font-family: "League Gothic";
+  font-size: 30px; 
+  border-radius: 10px;
+  margin-top: 24px;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  text-decoration: none; 
+}
+
+a:hover{
+  background-color: floralwhite;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

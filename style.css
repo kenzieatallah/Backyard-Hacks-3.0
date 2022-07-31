@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+    
+body{
+  background-color: white;
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+}
+
+#ourPurpose{
+  font-family: "League Gothic";
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: 6px double #f5d8db;
+  background-color: white;
+  color: black;
+  
+}
+
+#homeImg{
+  width: 100%;
+}
+
+#header{
+  font-size: 4em;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.15em;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  margin-top: 0.25em;
+  border-top: 6px double #f5d8db;
+  border-left: 6px double #f5d8db;
+  border-right: 6px double #f5d8db;
+  background-color: white;
+  color: black;
+}
+
+#s4s{
+  font-size: 1em;
+  text-align: center;
+  letter-spacing: 0.2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+  border-bottom: 6px double #f5d8db;
+  border-left: 6px double #f5d8db;
+  border-right: 6px double #f5d8db;
+  background-color: white;
+  color: black;
+}
+
+.navBar{
+  text-align: center;
+  padding-bottom: 2.5em;
+  list-style-type: none;
+  background-image: radial-gradient(circle, #4C98BF, #CD3F4E, #E4B936);
+  padding-top: 2.5em;
+  text-decoration: none;
+  width: 100%;
+}
+.navBar a:link{
+  text-decoration: none;
+  color: black; 
+}
+.navBar a:visited{ 
+  text-decoration: none; 
+  color: black; 
+}
+.navBar a:hover{ 
+  text-decoration: none; 
+  background-color: #floralwhite;
+}
+.navBar a:active{
+  text-decoration: none; 
+  color: black; 
+}
+
+li{
+  display: inline;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+.row4 {
+  display:flex;
+  justify-content: center;
+  margin: 37px;
+} 
+
+a {
+  font-family: "League Gothic";
+  font-size: 30px; 
+  border-radius: 10px;
+  margin-top: 24px;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  text-decoration: none; 
+}
+
+a:hover{
+  background-color: floralwhite;
+  cursor: pointer;
+}
